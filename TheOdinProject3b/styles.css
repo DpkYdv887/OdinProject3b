@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .controls {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; /* Total width of the grid */
+  }
+  
+  .square {
+    box-sizing: border-box;
+    width: calc(960px / 16); /* Adjusted width to fit 16 squares per row */
+    height: calc(960px / 16); /* Adjusted height to fit 16 squares per column */
+    border: 1px solid #ccc;
+  }
+  
+  .square:hover {
+    background-color: red;
+  }
+  
